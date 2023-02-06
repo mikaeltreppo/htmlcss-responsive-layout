@@ -103,6 +103,11 @@ header {
     height: 300px;
     background-color: rgb(97, 130, 119);
 }
+.conclusion{
+    background-color: crimson;
+    height: 200px;
+    margin-top: 20px;
+}
 
 
 /*TABLET*/
@@ -173,8 +178,12 @@ header {
     .free{
         margin: 20px auto;
         max-width: 738px;
-        height: 300px;
         background-color: rgb(97, 130, 119);
+    }
+    .conclusion{
+        max-width: 738px;
+        width: 50%;
+        margin: auto;
     }
 }
 
@@ -228,7 +237,11 @@ header {
 }
     .free{
         width: 50%;
-        margin: auto;
+        margin:  20px auto;
         max-width: 1200px;
+    }
+    .conclusion{
+        max-width: 1200px;
+        width: 50%;
     }
 }
