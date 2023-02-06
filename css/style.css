@@ -22,7 +22,8 @@ header {
 }
 
 .container {
-    width: 100%
+    width: 100%;
+    margin:auto;
 }
 
 .cards.container {
@@ -88,13 +89,21 @@ header {
 .description {
     background-color: rgb(78, 88, 106);
     height: 150px;
+    margin-top: 20px;
 }
 
 .description-two {
     background-color: rgb(78, 88, 106);
     height: 150px;
-   
+    margin-top: 20px;  
 }
+
+.free{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(97, 130, 119);
+}
+
 
 /*TABLET*/
 @media screen and (min-width: 768px) {
@@ -161,7 +170,12 @@ header {
         max-width: 738px;
         margin: auto;
     }
-   
+    .free{
+        margin: 20px auto;
+        max-width: 738px;
+        height: 300px;
+        background-color: rgb(97, 130, 119);
+    }
 }
 
 
@@ -211,4 +225,10 @@ header {
     }
     .about-us.container {
         max-width: 1200px;
+}
+    .free{
+        width: 50%;
+        margin: auto;
+        max-width: 1200px;
+    }
 }
