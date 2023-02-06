@@ -4,30 +4,51 @@
     box-sizing: border-box;
 }
 
-.flex {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.s-b {
-    justify-content: space-between;
-}
-
 header {
-    background-color: rgb(0, 132, 253);
+    height: 100%;
 }
 
+/*bottoni*/
+.button {
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.button.white {
+    color: black;
+    background-color: white;
+}
+
+.button.blue {
+    color: white;
+    background-color: rgb(0, 132, 253);
+    width: 80%;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 50px;
+}
+
+/*generali*/
 .text-align-center {
     text-align: center;
+}
+.icona{
+    font-size: 120px;
+    color: rgb(0, 132, 253);
+}
+.menu-lista {
+    display: none;
 }
 
 .container {
     width: 100%;
-    margin:auto;
+    margin: auto;
 }
 
 .cards.container {
-    background-color: rgb(172, 223, 206);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .strategic-development.container {
@@ -39,22 +60,58 @@ header {
 }
 
 .navbar-top {
-    max-width: 1170px;
-    margin: auto;
-}
-
-.logo,
-.menu {
-    width: 100px;
-    height: 80px;
-    background-color: rgb(188, 181, 238);
-}
-
-.card {
-    height: 150px;
+    background-color: rgb(0, 132, 253);
+    position: fixed;
     width: 100%;
+    z-index: 9999;
+    color: white;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 25px;
+}
+
+.menu {
+    font-size: 25px;
+
+}
+.card:first-child{
+    margin-top: 140px;
+}
+.card {
+    width: 80%;
     background-color: rgb(181, 221, 255);
     margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 35px;
+    border-radius: 45px;
+    padding: 20px 20px 0px 20px;
+    text-align: center;
+
+}
+
+.h3-demo {
+    margin-top: 30px;
+    font-size: 35px;
+    width: 80%;
+    color: rgb(0, 132, 253);
+    font-weight: bolder;
+}
+
+.img-demo {
+    width: 80%;
+    margin-top: 40px;
+}
+
+.p-demo {
+    width: 80%;
+    font-size: 25px;
+    line-height: 3rem;
+    color: rgb(90, 110, 127);
+    margin: 30px 0px;
 }
 
 .strategic,
@@ -83,9 +140,10 @@ header {
     background-color: bisque;
 }
 
-.about-us{
+.about-us {
     margin-bottom: 20px;
 }
+
 .description {
     background-color: rgb(78, 88, 106);
     height: 150px;
@@ -95,15 +153,16 @@ header {
 .description-two {
     background-color: rgb(78, 88, 106);
     height: 150px;
-    margin-top: 20px;  
+    margin-top: 20px;
 }
 
-.free{
+.free {
     width: 100%;
     height: 300px;
     background-color: rgb(97, 130, 119);
 }
-.conclusion{
+
+.conclusion {
     background-color: crimson;
     height: 200px;
     margin-top: 20px;
@@ -112,9 +171,19 @@ header {
 
 /*TABLET*/
 @media screen and (min-width: 768px) {
+    header {
+        height: 75px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background-color: rgb(0, 132, 253);
+    }
+
     .navbar-top {
+        width: 100%;
         max-width: 738px;
         margin: auto;
+        padding: 15px 0px;
     }
 
     .cards.container {
@@ -159,28 +228,35 @@ header {
         justify-content: space-between;
     }
 
-    .col, .description, .description-two{
+    .col,
+    .description,
+    .description-two {
         width: calc((100% / 2) - 40px);
     }
 
     .width-100 {
         width: 100%;
     }
-.description, .description-two{
-    margin: auto 20px;
-}
+
+    .description,
+    .description-two {
+        margin: auto 20px;
+    }
+
     .about-us.container {
         display: flex;
         flex-wrap: wrap;
         max-width: 738px;
         margin: auto;
     }
-    .free{
+
+    .free {
         margin: 20px auto;
         max-width: 738px;
         background-color: rgb(97, 130, 119);
     }
-    .conclusion{
+
+    .conclusion {
         max-width: 738px;
         width: 50%;
         margin: auto;
@@ -192,6 +268,14 @@ header {
 @media screen and (min-width:992px) {
     .navbar-top {
         max-width: 1200px;
+    }
+
+    header {
+        height: 75px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background-color: rgb(0, 132, 253);
     }
 
     .cards {
@@ -232,16 +316,36 @@ header {
     .col {
         width: calc((100% / 3) - 40px);
     }
+
     .about-us.container {
         max-width: 1200px;
-}
-    .free{
+    }
+
+    .free {
         width: 50%;
-        margin:  20px auto;
+        margin: 20px auto;
         max-width: 1200px;
     }
-    .conclusion{
+
+    .conclusion {
         max-width: 1200px;
         width: 50%;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .menu-lista {
+        display: block;
+    }
+
+    li {
+        display: inline-block;
+        padding-right: 15px;
+    }
+
+    li.button {
+        padding-right: 0px;
     }
 }
