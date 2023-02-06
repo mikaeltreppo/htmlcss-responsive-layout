@@ -79,14 +79,16 @@ header {
         margin-bottom: 20px;
     }
 }
+
+
 /* desktop*/
 @media screen and (min-width:992px) {
     .navbar-top {
-        max-width: 962px;
+        max-width: 1200px;
     }
 
     .cards {
-        max-width: 962px;
+        max-width: 1200px;
         display: flex;
         flex-wrap: wrap;
         margin: 20px auto;
@@ -100,5 +102,11 @@ header {
 
     .card:first-child {
         width: calc(100% / 3 *2);
+    }
+    .strategic, .development{
+        margin: auto;
+        max-width: 1200px;
+        width: 100%;
+        margin-bottom: 20px;
     }
 }
