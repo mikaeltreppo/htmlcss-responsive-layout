@@ -39,13 +39,22 @@ header {
     background-color: rgb(181, 221, 255);
     margin-bottom: 20px;
 }
+.strategic, .development{
+    margin-top: 20px;
+    width: 100%;
+    height: 200px;
+    background-color: rgb(226, 157, 157);
+
+}
 
 
 /*TABLET*/
 @media screen and (min-width: 768px) {
     .navbar-top {
         max-width: 738px;
+        margin: auto;
     }
+
 
     .cards {
         max-width: 738px;
@@ -63,8 +72,14 @@ header {
     .card:first-child {
         width: calc(100% / 3 *2);
     }
+    .strategic, .development{
+        margin: auto;
+        max-width: 738px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
 }
-
+/* desktop*/
 @media screen and (min-width:992px) {
     .navbar-top {
         max-width: 962px;
