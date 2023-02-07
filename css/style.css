@@ -116,12 +116,12 @@ header {
 }
 
 .img-demo {
-    width: 80%;
+    width: 50%;
     margin-top: 30px;
 }
 
 .p-demo {
-    width: 80%;
+    width: 50%;
     font-size: 20px;
     line-height: 2rem;
     color: rgb(90, 110, 127);
@@ -421,7 +421,7 @@ header {
 
     .img-demo {
         align-self: flex-end;
-        width: 82%;
+        width: 50;
     }
 
     .half-size {
