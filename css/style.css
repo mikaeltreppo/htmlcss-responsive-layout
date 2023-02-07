@@ -318,6 +318,7 @@ header {
 .about-us.container {
     width: 80%;
     text-align: left;
+    padding: 40px 0px;
 }
 
 .p-about {
@@ -564,7 +565,7 @@ footer {
     }
 
     .col {
-        width: calc((100% / 2)- 20px);
+        width: calc((100% / 2) - 20px);
 
     }
 
@@ -572,6 +573,7 @@ footer {
     .about-us.container {
         display: flex;
         flex-wrap: wrap;
+
     }
 
     .descriptions {
@@ -673,7 +675,7 @@ footer {
 
     .img-demo {
         align-self: flex-end;
-        width: 50;
+        width: 50%;
     }
 
     .half-size {
