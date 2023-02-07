@@ -137,6 +137,8 @@ header {
 .h3-strategic,
 .h4-app-development {
     margin: 30px auto;
+    font-size: 40px ;
+    text-align: center;
 }
 
 .centered {
@@ -167,7 +169,10 @@ header {
 
 
 }
-
+.strategic-development.container p{
+    line-height: 2rem;
+    font-size: 25px;
+}
 .strategic img,
 .development img {
     width: 100%;
@@ -430,13 +435,13 @@ header {
     }
 
     .strategic-development.container {
-     
+
         display: flex;
         justify-content: center;
     }
 
     .container-centered {
-        max-width: 960px;   
+        max-width: 960px;
         display: flex;
         justify-content: center;
         padding: 40px 0;
@@ -448,6 +453,6 @@ header {
     }
 
     .development {
-        width: 35%;   
+        width: 35%;
     }
 }
