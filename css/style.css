@@ -62,9 +62,7 @@ header {
     padding-bottom: 40px;
 }
 
-.testimonial.container {
-  
-}
+
 
 .navbar-top {
     background-color: rgb(0, 132, 253);
@@ -137,7 +135,7 @@ header {
 .h3-strategic,
 .h4-app-development {
     margin: 30px auto;
-    font-size: 25px ;
+    font-size: 25px;
     text-align: center;
 }
 
@@ -169,16 +167,18 @@ header {
 
 
 }
-.strategic-development.container p{
+
+.strategic-development.container p {
     line-height: 2rem;
     font-size: 15px;
 }
+
 .strategic img,
 .development img {
     width: 100%;
 }
 
-.intro{
+.intro {
     width: 100%;
     margin-top: 20px;
 }
@@ -192,14 +192,11 @@ header {
 }
 
 .description {
-    background-color: rgb(78, 88, 106);
-    height: 150px;
     margin-top: 20px;
 }
 
 .description-two {
-    background-color: rgb(78, 88, 106);
-    height: 150px;
+
     margin-top: 20px;
 }
 
@@ -214,19 +211,22 @@ header {
     height: 200px;
     margin-top: 20px;
 }
+
 /*******intro*******/
-.intro{
+.intro {
     margin: auto;
     width: 80%;
     text-align: center;
     padding: 15px 25px;
 }
-.h3-intro{
+
+.h3-intro {
     margin: 20px 0;
-    color:rgb(151, 146, 228) ;
+    color: rgb(151, 146, 228);
 }
+
 /******Profile******/
-.img-profile{
+.img-profile {
     height: 170px;
     border-radius: 50%;
     width: 170px;
@@ -234,16 +234,20 @@ header {
     background-position: center;
     background-size: cover;
 }
-.img-profile.one{
+
+.img-profile.one {
     background-image: url('../img/testimonial1.jpg');
 }
-.img-profile.two{
+
+.img-profile.two {
     background-image: url(../img/testimonial2.jpg);
 }
-.img-profile.three{
+
+.img-profile.three {
     background-image: url(../img/testimonial3.jpg);
 }
-.person{
+
+.person {
     text-align: center;
     background-color: rgb(151, 146, 228);
     width: 80%;
@@ -251,50 +255,104 @@ header {
     line-height: 2.5rem;
     color: white;
     padding: 20px;
-    margin:30px auto;
+    margin: 30px auto;
 }
-.span-profile{
+
+.span-profile {
     font-weight: bold;
 }
+
 /*****layout*******/
-.layout.container{
-    background-color:rgb(151, 146, 228) ;
+.layout.container {
+    background-color: rgb(151, 146, 228);
     width: 100%;
+    padding-bottom: 25px;
 }
-.columns{
-    width:80% ;
+
+.columns {
+    width: 80%;
     margin: auto;
 }
-.col{
+
+.col {
     background-color: white;
     margin: 20px auto;
     text-align: left;
     border-radius: 50px;
     padding: 25px;
 }
-.number{
+
+.number,
+.h4-about {
     font-size: 35px;
     color: rgb(151, 146, 228);
     margin-top: 15px;
 }
-.h3-col{
+
+.h3-col {
     color: rgb(151, 146, 228);
     font-size: 25px;
     margin: 20px 0;
 }
-.button.violet{
-    background-color:rgb(151, 146, 228) ;
+
+.button.violet {
+    background-color: rgb(151, 146, 228);
     width: 50%;
     text-align: center;
     margin: 20px 0px;
     color: white;
     font-weight: bold;
 }
-.columns h4{
+
+.columns h4 {
     font-size: 25px;
     color: white;
     font-weight: bold;
-   padding-top: 25px;
+    padding-top: 25px;
+}
+
+/*******About-us********/
+.about-us.container {
+    width: 80%;
+    text-align: left;
+}
+
+.p-about {
+    margin-top: 25px;
+    line-height: 1.5rem;
+    width: 100%;
+}
+
+.img-about {
+
+    height: 170px;
+    border-radius: 50%;
+    width: 170px;
+    margin: 25px 0px;
+    background-position: center;
+    background-size: cover;
+    background-image: url("../img/about.jpg");
+    position: relative;
+}
+.absolute-about {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    font-size: 60px;
+    color:  rgb(151, 146, 228);;
+}
+.card-about-us {
+    text-align: left;
+    width: 65%;
+}
+
+.button.violet.card {
+    font-size: 12px;
+    padding: 2px;
+}
+.h3-about{
+    color:  rgb(151, 146, 228);
+    font-size:25px ; 
 }
 /*TABLET*/
 @media screen and (min-width: 768px) {
@@ -358,9 +416,8 @@ header {
         justify-content: space-between;
     }
 
-    .col,
-    .description,
-    .description-two {
+    .col
+    {
         width: calc((100% / 2) - 40px);
     }
 
@@ -378,6 +435,7 @@ header {
         flex-wrap: wrap;
         max-width: 738px;
         margin: auto;
+
     }
 
     .free {
@@ -395,37 +453,54 @@ header {
     .card:first-child {
         width: calc((100% / 3 *2) - 20px);
     }
-    /******Testimonial*******/
-    .testimonials{
-     display: flex;
-     flex-wrap: wrap;
-    }
-    .p-profile{
-        width: 70%;
-        
-    }
-   .span-profile{
-      display: block;
-   }
-   .testimonials.intro {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
 
-}
+    /******Testimonial*******/
+    .testimonials {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .p-profile {
+        width: 70%;
+
+    }
+
+    .span-profile {
+        display: block;
+    }
+
+    .testimonials.intro {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+
     /******layout******/
-    .columns{
+    .columns {
         max-width: 738px;
         display: flex;
         flex-wrap: wrap;
-    justify-content: space-between;
-    }
-    .col{
-        width: calc((100% / 2)- 20px);
-     
+        justify-content: space-between;
     }
 
+    .col {
+        width: calc((100% / 2)- 20px);
+
+    }
+/*****About-us*******/
+.about-us.container{
+    display: flex;
+    flex-wrap: wrap;
 }
+.descriptions{
+    width: 60%;
+}
+.card-about-us{
+    width: 40%;
+}
+}
+
 /* DESKTOP*/
 @media screen and (min-width:992px) {
     .navbar-top {
@@ -472,9 +547,6 @@ header {
         max-width: 960px;
     }
 
-    .layout.container {
-      
-    }
 
     .col {
         width: calc((100% / 3) - 40px);
@@ -553,9 +625,12 @@ header {
     .development {
         width: 35%;
     }
-    .columns{
-        max-width: 960px;}
-    .col{
+
+    .columns {
+        max-width: 960px;
+    }
+
+    .col {
         width: calc((100% / 3) - 20px);
     }
 }
