@@ -63,7 +63,7 @@ header {
 }
 
 .testimonial.container {
-    background-color: rgb(106, 83, 67);
+  
 }
 
 .navbar-top {
@@ -178,11 +178,8 @@ header {
     width: 100%;
 }
 
-.intro,
-.person {
+.intro{
     width: 100%;
-    background-color: rgb(92, 80, 80);
-    height: 170px;
     margin-top: 20px;
 }
 
@@ -222,6 +219,48 @@ header {
     background-color: crimson;
     height: 200px;
     margin-top: 20px;
+}
+/*******intro*******/
+.intro{
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    padding: 15px 25px;
+}
+.h3-intro{
+    margin: 20px 0;
+    color:rgb(151, 146, 228) ;
+}
+/******Profile******/
+.img-profile{
+    height: 170px;
+    border-radius: 50%;
+    width: 170px;
+    margin: auto;
+    background-position: center;
+    background-size: cover;
+}
+.img-profile.one{
+    background-image: url('../img/testimonial1.jpg');
+}
+.img-profile.two{
+    background-image: url(../img/testimonial2.jpg);
+}
+.img-profile.three{
+    background-image: url(../img/testimonial3.jpg);
+}
+.person{
+    text-align: center;
+    background-color: rgb(151, 146, 228);
+    width: 80%;
+    border-radius: 50px;
+    line-height: 2.5rem;
+    color: white;
+    padding: 20px;
+    margin:30px auto;
+}
+.span-profile{
+    font-weight: bold;
 }
 
 
