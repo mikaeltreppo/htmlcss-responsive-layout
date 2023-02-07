@@ -108,7 +108,7 @@ header {
 }
 
 .h3-demo {
-    font-size: 30px;
+    font-size: 25px;
     width: 80%;
     color: rgb(0, 132, 253);
     font-weight: bolder;
@@ -122,7 +122,7 @@ header {
 
 .p-demo {
     width: 50%;
-    font-size: 20px;
+    font-size: 15px;
     line-height: 2rem;
     color: rgb(90, 110, 127);
     margin: 25px 0px;
@@ -137,7 +137,7 @@ header {
 .h3-strategic,
 .h4-app-development {
     margin: 30px auto;
-    font-size: 30px ;
+    font-size: 25px ;
     text-align: center;
 }
 
@@ -171,7 +171,7 @@ header {
 }
 .strategic-development.container p{
     line-height: 2rem;
-    font-size: 25px;
+    font-size: 15px;
 }
 .strategic img,
 .development img {
