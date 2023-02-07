@@ -364,6 +364,23 @@ header {
     .card:first-child {
         width: calc((100% / 3 *2) - 20px);
     }
+    /******Testimonial*******/
+    .testimonials{
+     display: flex;
+     flex-wrap: wrap;
+    }
+    .p-profile{
+        width: 70%;
+        
+    }
+   .span-profile{
+      display: block;
+   }
+   .testimonials.intro {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
 }
 
 
